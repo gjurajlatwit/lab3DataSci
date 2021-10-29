@@ -33,7 +33,7 @@ def main():
     y0= HEIGHT//2
     vx0 = -VELOCITY
     vy0 = VELOCITY
-    #TODO randomly pick a 45^ angle
+    #TODO randomly pick a 45^ angle : Done.
     angles = [-45, 0, 45]
     angle = random.choice(angles)
     b0 = Ball(x0,y0,vx0,vy0,screen,fgcolor, bgcolor, angle, BORDER, HEIGHT)
