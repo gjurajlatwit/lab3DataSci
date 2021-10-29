@@ -5,7 +5,7 @@ class Ball:
     RADIUS = 10
 
 
-    def __init__(self, x, y, vx, vy, screen, fgcolor,bgcolor,angle):
+    def __init__(self, x, y, vx, vy, screen, fgcolor,bgcolor,angle, BORDER, HEIGHT):
         self.x = x
         self.y = y
         self.screen = screen
@@ -14,18 +14,20 @@ class Ball:
         self.vy = vy
         self.bgcolor = bgcolor
         self.angle = angle
-
+        self.BORDER = BORDER
+        self.HEIGHT = HEIGHT
+        
     def show(self, color):
         pygame.draw.circle(self.screen, color, (self.x,self.y), Ball.RADIUS)
 
     def collide(self):
        
         
-        if self.y+Ball.RADIUS >= 458:# you could do the math so that velocity hits the border just right
+        if self.y+Ball.RADIUS >= self.HEIGHT-(self.BORDER+2):# you could do the math so that velocity hits the border just right
             self.vy = -self.vy       # I just made an invisible border so that the ball doesn't delete the walls
-        if self.x-Ball.RADIUS <= 22:
+        if self.x-Ball.RADIUS <= self.BORDER+2:
             self.vx = -self.vx
-        if self.y-Ball.RADIUS <= 22:
+        if self.y-Ball.RADIUS <= self.BORDER+2:
             self.vy = -self.vy
         
     
