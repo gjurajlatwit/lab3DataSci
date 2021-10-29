@@ -36,7 +36,7 @@ def main():
     #TODO randomly pick a 45^ angle
     angles = [-45, 0, 45]
     angle = random.choice(angles)
-    b0 = Ball(x0,y0,vx0,vy0,screen,fgcolor, bgcolor, angle)
+    b0 = Ball(x0,y0,vx0,vy0,screen,fgcolor, bgcolor, angle, BORDER, HEIGHT)
     b0.show(fgcolor)
     
 
