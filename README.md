@@ -25,5 +25,7 @@ PS C:\Users\gjurajl\Downloads>
 
 It was just me who did the PA. (Luis Gjuraj)
 
+Avg time : 7 sec.
+
 GIF of AI playing and having fun:
 ![giphy](https://user-images.githubusercontent.com/77977376/145490944-e1b4ca59-2fbd-4d2e-868f-86b62973b780.gif)
