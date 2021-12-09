@@ -26,4 +26,4 @@ PS C:\Users\gjurajl\Downloads>
 It was just me who did the PA. (Luis Gjuraj)
 
 GIF of AI playing and having fun:
-![image](https://user-images.githubusercontent.com/77977376/145490247-24812778-d9cc-4494-a18d-42892bf164cf.png)
+https://media.giphy.com/media/Pg7jSTGLBqL517xEGJ/giphy.gif
